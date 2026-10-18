@@ -1,0 +1,208 @@
+<form id="order-form" aria-labelledby="order-form-title" novalidate>
+  <h2 id="order-form-title">Place your order</h2>
+
+  <div>
+    <label for="customer-name">Name</label>
+    <input
+      id="customer-name"
+      name="name"
+      type="text"
+      autocomplete="name"
+      required
+      aria-describedby="customer-name-error"
+      aria-invalid="false"
+    >
+    <p id="customer-name-error" aria-live="polite"></p>
+  </div>
+
+  <div>
+    <label for="customer-email">Email</label>
+    <input
+      id="customer-email"
+      name="email"
+      type="email"
+      autocomplete="email"
+      required
+      aria-describedby="customer-email-error"
+      aria-invalid="false"
+    >
+    <p id="customer-email-error" aria-live="polite"></p>
+  </div>
+
+  <div>
+    <label for="pickup-date">Pickup date</label>
+    <input
+      id="pickup-date"
+      name="pickupDate"
+      type="date"
+      required
+      aria-describedby="pickup-date-error"
+      aria-invalid="false"
+    >
+    <p id="pickup-date-error" aria-live="polite"></p>
+  </div>
+
+  <fieldset
+    id="order-products"
+    aria-describedby="product-selection-help product-selection-error"
+    aria-invalid="false"
+  >
+    <legend>Products</legend>
+    <p id="product-selection-help">Choose at least one product and its quantity.</p>
+    <p id="product-selection-error" aria-live="polite"></p>
+
+    <ul>
+      <li data-cart-item>
+        <input
+          id="product-sourdough"
+          name="products"
+          type="checkbox"
+          value="sourdough-bread"
+          aria-label="Select sourdough bread"
+          aria-invalid="false"
+        >
+        <label for="product-sourdough">Sourdough bread</label>
+        <button type="button" data-cart-action="add" aria-label="Add sourdough bread to cart">
+          Add to cart
+        </button>
+        <button
+          type="button"
+          data-cart-action="decrement"
+          aria-label="Decrease sourdough bread quantity"
+          aria-controls="quantity-sourdough"
+          disabled
+        >
+          -
+        </button>
+        <label for="quantity-sourdough">Quantity</label>
+        <input
+          id="quantity-sourdough"
+          name="quantity-sourdough"
+          type="number"
+          value="0"
+          min="0"
+          step="1"
+          inputmode="numeric"
+          aria-label="Sourdough bread quantity"
+          aria-controls="cart-count"
+          disabled
+        >
+        <button
+          type="button"
+          data-cart-action="increment"
+          aria-label="Increase sourdough bread quantity"
+          aria-controls="quantity-sourdough"
+        >
+          +
+        </button>
+      </li>
+      <li data-cart-item>
+        <input
+          id="product-croissant"
+          name="products"
+          type="checkbox"
+          value="butter-croissant"
+          aria-label="Select butter croissant"
+          aria-invalid="false"
+        >
+        <label for="product-croissant">Butter croissant</label>
+        <button type="button" data-cart-action="add" aria-label="Add butter croissant to cart">
+          Add to cart
+        </button>
+        <button
+          type="button"
+          data-cart-action="decrement"
+          aria-label="Decrease butter croissant quantity"
+          aria-controls="quantity-croissant"
+          disabled
+        >
+          -
+        </button>
+        <label for="quantity-croissant">Quantity</label>
+        <input
+          id="quantity-croissant"
+          name="quantity-croissant"
+          type="number"
+          value="0"
+          min="0"
+          step="1"
+          inputmode="numeric"
+          aria-label="Butter croissant quantity"
+          aria-controls="cart-count"
+          disabled
+        >
+        <button
+          type="button"
+          data-cart-action="increment"
+          aria-label="Increase butter croissant quantity"
+          aria-controls="quantity-croissant"
+        >
+          +
+        </button>
+      </li>
+      <li data-cart-item>
+        <input
+          id="product-rye"
+          name="products"
+          type="checkbox"
+          value="rye-loaf"
+          aria-label="Select rye loaf"
+          aria-invalid="false"
+        >
+        <label for="product-rye">Rye loaf</label>
+        <button type="button" data-cart-action="add" aria-label="Add rye loaf to cart">
+          Add to cart
+        </button>
+        <button
+          type="button"
+          data-cart-action="decrement"
+          aria-label="Decrease rye loaf quantity"
+          aria-controls="quantity-rye"
+          disabled
+        >
+          -
+        </button>
+        <label for="quantity-rye">Quantity</label>
+        <input
+          id="quantity-rye"
+          name="quantity-rye"
+          type="number"
+          value="0"
+          min="0"
+          step="1"
+          inputmode="numeric"
+          aria-label="Rye loaf quantity"
+          aria-controls="cart-count"
+          disabled
+        >
+        <button
+          type="button"
+          data-cart-action="increment"
+          aria-label="Increase rye loaf quantity"
+          aria-controls="quantity-rye"
+        >
+          +
+        </button>
+      </li>
+    </ul>
+  </fieldset>
+
+  <p id="cart-count" role="status" aria-live="polite" aria-atomic="true">Cart: 0 items</p>
+
+  <div>
+    <label for="dietary-requirements">Special dietary requirements</label>
+    <textarea
+      id="dietary-requirements"
+      name="dietaryRequirements"
+      rows="4"
+      aria-describedby="dietary-requirements-help"
+    ></textarea>
+    <p id="dietary-requirements-help">Optional. Include allergies or other requirements.</p>
+  </div>
+
+  <button type="submit">Submit order</button>
+  <p id="order-form-status" role="status" aria-live="polite" aria-atomic="true"></p>
+</form>
+
+<script type="module" src="../../handlers/cartHandler.js"></script>
+<script type="module" src="../../handlers/formValidation.js"></script>

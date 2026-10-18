@@ -1,0 +1,5 @@
+Ostatnia aktualizacja: 2026-10-18 14:14:20 +02:00
+Obecne zadanie: Weryfikacja integracji formularza i koszyka z ładowaniem widoków przez router
+Ukończone: Sprawdzono index.html, src/core/app.js, src/core/router.js i src/core/view-loader.js. Potwierdzono, że moduły widoków są dynamicznie importowane i osadzone skrypty w HTML wstawionym jako widok nie zapewniają inicjalizacji handlerów. Eksporty initializeOrderForm i initializeCartHandler są dostępne do jawnego wywołania przez moduł widoku.
+Oczekujące (Pending): Właściciel src/core lub modułów stron musi zaimportować i wywołać initializeOrderForm oraz initializeCartHandler po zamontowaniu formularza w widoku order; dodać brakujące moduły src/components/pages/order.js i contact.js, jeśli są wymagane przez router.
+Blokady/Zależności (Dependencies): Zmiana wykracza poza domenę Copilot (/src/core i moduły stron nie należą do /src/handlers ani /src/components/interactive). Faktyczna inicjalizacja po nawigacji wymaga integracji w module widoku/routera; brak src/components/pages/order.js i src/components/pages/contact.js.

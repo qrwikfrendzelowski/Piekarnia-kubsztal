@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": "sourdough-country-001",
+      "title": "Country Sourdough Loaf",
+      "description": "Our signature naturally leavened loaf with an open, tangy crumb and a dark crackling crust. Cold-fermented for 24 hours for deep flavour and easy digestibility. Baked fresh every morning.",
+      "price": 4.8,
+      "category": "sourdough",
+      "ingredients": ["wheat flour", "water", "sea salt", "sourdough starter (wheat)"],
+      "image": "/src/assets/images/products/country-sourdough-loaf.svg"
+    },
+    {
+      "id": "sourdough-rye-002",
+      "title": "Dark Rye Sourdough",
+      "description": "A dense, moist Scandinavian-style rye built on a 30-year-old rye starter. Keeps for a week and pairs perfectly with cheese, cured meats and smoked fish.",
+      "price": 5.2,
+      "category": "sourdough",
+      "ingredients": ["rye flour", "wheat flour", "water", "sea salt", "rye sourdough starter"],
+      "image": "/src/assets/images/products/dark-rye-sourdough.svg"
+    },
+    {
+      "id": "sourdough-walnut-raisin-003",
+      "title": "Walnut & Raisin Sourdough",
+      "description": "Sweet-savoury sourdough loaded with toasted walnuts and plump raisins. A bakery bestseller, ideal for a cheese board or simply toasted with butter.",
+      "price": 5.9,
+      "category": "sourdough",
+      "ingredients": ["wheat flour", "water", "sea salt", "sourdough starter (wheat)", "walnuts", "raisins"],
+      "image": "/src/assets/images/products/walnut-raisin-sourdough.svg"
+    },
+    {
+      "id": "bread-wholemeal-seeded-004",
+      "title": "Wholemeal Seeded Loaf",
+      "description": "Hearty wholemeal tin loaf soaked with sunflower, pumpkin and linseed for extra crunch and nutrition. Soft crumb, sturdy crust — a perfect everyday sandwich bread.",
+      "price": 4.5,
+      "category": "artisan-bread",
+      "ingredients": ["wholemeal wheat flour", "water", "sunflower seeds", "pumpkin seeds", "linseed", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/wholemeal-seeded-loaf.svg"
+    },
+    {
+      "id": "bread-ciabatta-005",
+      "title": "Rustic Ciabatta",
+      "description": "High-hydration Italian flatbread with a crisp golden crust and a beautifully irregular, airy crumb. Finished with a drizzle of cold-pressed olive oil.",
+      "price": 3.2,
+      "category": "artisan-bread",
+      "ingredients": ["wheat flour", "water", "sea salt", "olive oil", "yeast"],
+      "image": "/src/assets/images/products/rustic-ciabatta.svg"
+    },
+    {
+      "id": "bread-baguette-006",
+      "title": "French Baguette",
+      "description": "Classic baguette baked on stone with steam for a thin, shattering crust and a soft, wheaty interior. Best enjoyed on the day of baking.",
+      "price": 2.8,
+      "category": "artisan-bread",
+      "ingredients": ["wheat flour", "water", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/french-baguette.svg"
+    },
+    {
+      "id": "pastry-croissant-007",
+      "title": "Classic Butter Croissant",
+      "description": "Laminated with 27 layers of French AOP butter and proofed overnight for a honeycomb interior. Crisp, flaky and deeply buttery.",
+      "price": 2.4,
+      "category": "pastries",
+      "ingredients": ["wheat flour", "butter", "water", "sugar", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/classic-butter-croissant.svg"
+    },
+    {
+      "id": "pastry-pain-au-chocolat-008",
+      "title": "Pain au Chocolat",
+      "description": "The same slow-proofed laminated dough as our croissant, wrapped around two batons of 60% dark chocolate that melt into the flaky layers.",
+      "price": 2.9,
+      "category": "pastries",
+      "ingredients": ["wheat flour", "butter", "dark chocolate", "water", "sugar", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/pain-au-chocolat.svg"
+    },
+    {
+      "id": "pastry-almond-croissant-009",
+      "title": "Almond Croissant",
+      "description": "Yesterday's croissant soaked in orange syrup, filled with frangipane and showered with flaked almonds. Baked twice for a caramelised, crunchy finish.",
+      "price": 3.2,
+      "category": "pastries",
+      "ingredients": ["wheat flour", "butter", "almonds", "sugar", "water", "eggs", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/almond-croissant.svg"
+    },
+    {
+      "id": "pastry-cinnamon-knot-010",
+      "title": "Cinnamon Knot",
+      "description": "Hand-knotted brioche-style pastry swirled with cinnamon sugar, baked until golden and brushed with vanilla glaze while still warm.",
+      "price": 2.7,
+      "category": "pastries",
+      "ingredients": ["wheat flour", "butter", "sugar", "cinnamon", "water", "eggs", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/cinnamon-knot.svg"
+    },
+    {
+      "id": "cake-victoria-sponge-011",
+      "title": "Victoria Sponge (Made to Order)",
+      "description": "Made-to-order celebration sponge, 8 inch / 12 servings, filled with raspberry jam and vanilla buttercream. Please order at least 48 hours in advance.",
+      "price": 28.0,
+      "category": "cakes",
+      "ingredients": ["wheat flour", "butter", "sugar", "eggs", "milk", "raspberry jam", "vanilla", "baking powder"],
+      "image": "/src/assets/images/products/victoria-sponge.svg"
+    },
+    {
+      "id": "cake-celebration-012",
+      "title": "Celebration Sponge Cake (Made to Order)",
+      "description": "Two-tier personalised sponge cake (20 servings) with your choice of sponge flavour, buttercream colour and hand-piped message. 5 days notice required.",
+      "price": 38.0,
+      "category": "cakes",
+      "ingredients": ["wheat flour", "butter", "sugar", "eggs", "milk", "buttercream", "food colouring"],
+      "image": "/src/assets/images/products/celebration-sponge-cake.svg"
+    },
+    {
+      "id": "cake-wedding-013",
+      "title": "Wedding Tiered Cake (Made to Order)",
+      "description": "Three-tier wedding cake (60 servings) finished with fresh or sugar flowers. Includes a private tasting session. Minimum 6 weeks notice required.",
+      "price": 250.0,
+      "category": "cakes",
+      "ingredients": ["wheat flour", "butter", "sugar", "eggs", "milk", "fondant", "seasonal flowers"],
+      "image": "/src/assets/images/products/wedding-tiered-cake.svg"
+    },
+    {
+      "id": "gluten-free-seeded-014",
+      "title": "Gluten-Free Seeded Loaf",
+      "description": "Certified gluten-free loaf baked on dedicated gluten-free lines. Soft crumb enriched with a three-seed mix — proof that GF bread can still taste like bread.",
+      "price": 5.5,
+      "category": "gluten-free",
+      "ingredients": ["rice flour", "potato starch", "tapioca starch", "sunflower seeds", "water", "sea salt", "yeast"],
+      "image": "/src/assets/images/products/gluten-free-seeded-loaf.svg"
+    },
+    {
+      "id": "gluten-free-brownie-015",
+      "title": "Gluten-Free Chocolate Brownie",
+      "description": "Dense, fudgy brownie made with 70% dark chocolate and rice flour. Naturally gluten-free, with a crackled top and a molten centre.",
+      "price": 3.4,
+      "category": "gluten-free",
+      "ingredients": ["dark chocolate", "butter", "sugar", "eggs", "rice flour", "cocoa powder"],
+      "image": "/src/assets/images/products/gluten-free-chocolate-brownie.svg"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Piekarnia Kubulek",
+  "tagline": "Traditional craft bakery, baking with time and fire since 1987",
+  "address": {
+    "street": "14 Millers Lane",
+    "city": "Bristol",
+    "postalCode": "BS1 4TR",
+    "country": "United Kingdom"
+  },
+  "phone": "+44 117 496 0187",
+  "email": "hello@kubulek-bakery.co.uk",
+  "openingHours": [
+    { "day": "Monday", "open": "07:00", "close": "18:00" },
+    { "day": "Tuesday", "open": "07:00", "close": "18:00" },
+    { "day": "Wednesday", "open": "07:00", "close": "18:00" },
+    { "day": "Thursday", "open": "07:00", "close": "18:00" },
+    { "day": "Friday", "open": "07:00", "close": "18:30" },
+    { "day": "Saturday", "open": "07:30", "close": "16:00" },
+    { "day": "Sunday", "closed": true }
+  ],
+  "history": {
+    "founded": 1987,
+    "founder": "Marek Kubulek",
+    "narrative": "Piekarnia Kubulek began in 1987 as a single stone oven in a railway arch, started by Marek Kubulek after he emigrated with his mother's sourdough starter in a cloth bag. That same starter still leavens our country loaf today. Over four decades the bakery grew from a one-man night shift into a family team of fifteen bakers, but nothing essential changed: long fermentation, hand shaping, and flour milled within forty miles of the bakery. Today the third generation of the Kubulek family carries on the craft, opening the arch doors every morning at seven.",
+    "milestones": [
+      {
+        "year": 1987,
+        "event": "Founded in a railway arch with one stone oven and the family sourdough starter."
+      },
+      {
+        "year": 1998,
+        "event": "Opened the Millers Lane shopfront and introduced the first viennoiserie range."
+      },
+      {
+        "year": 2009,
+        "event": "Switched to stone-milled regional flour for all sourdough lines."
+      },
+      {
+        "year": 2016,
+        "event": "Built dedicated gluten-free bakehouse with certified gluten-free production lines."
+      },
+      {
+        "year": 2021,
+        "event": "Apprenticeship programme launched; the bakery now trains six bakers a year."
+      },
+      {
+        "year": 2024,
+        "event": "Celebrated the 100,000th loaf baked from the original 1987 starter."
+      }
+    ]
+  },
+  "social": {
+    "instagram": "@piekarniakubulek",
+    "facebook": "/piekarniakubulek"
+  }
+}
